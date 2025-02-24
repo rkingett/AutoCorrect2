@@ -42,7 +42,7 @@ MyAhkEditorPath := "C:\Users\" A_UserName "\AppData\Local\Programs\Microsoft VS 
 If !FileExist(MyAhkEditorPath) and !(MyAhkEditorPath = "Notepad.exe") { ; Make sure AHK editor is assigned.  Use Notepad otherwise.
 	MsgBox("This error means that the variable 'MyAhkEditorPath' has"
 	"`nnot been assigned a valid path for an editor."
-	"`nTherefore Notepad will be used as a substite.")
+	"`nTherefore Notepad will be used as a substitute .")
 	MyAhkEditorPath := "Notepad.exe"
 }
 If not FileExist(HotstringLibrary) 
